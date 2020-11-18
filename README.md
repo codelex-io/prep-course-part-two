@@ -18,6 +18,8 @@ Your goal for this part is to have all of the tests green.
 
 As before, download all the dependencies by executing `npm install`
 
+**PRO TIP:** you can save 3ms by executing `npm i` which does the same thing
+
 ## Executing Tests
 
 `src` directory includes multiple subdirectories. Each of them contains two files, one contains the code that you are going to modify and the second one is a test file which you are not allowed to modify.
