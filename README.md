@@ -14,7 +14,7 @@ Your goal for this part is to have all of the tests green.
 
 ## Getting Ready
 
-[➡️ Follow this link to open project in Gitpod](https://gitpod.io/#https://github.com/codelex-io/prep-course-day-two)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/codelex-io/prep-course-day-two)
 
 As before, download all the dependencies by executing `npm install`
 
