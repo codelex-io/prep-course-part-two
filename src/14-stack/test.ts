@@ -19,7 +19,7 @@ describe("Stack class", () => {
     expect(s.pop()).toEqual(1);
   });
 
-  test("should have peek method which returns the first element but doesnt removes it", () => {
+  test("should have peek method which returns the last element but doesnt removes it", () => {
     const s = new Stack();
     s.push(1);
     s.push(2);
