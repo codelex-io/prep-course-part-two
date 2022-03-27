@@ -9,7 +9,7 @@ describe("Stack class", () => {
     expect(s.pop()).toEqual(2);
   });
 
-  test("should follows first in, last out", () => {
+  test("should follow `first in, last out` principle", () => {
     const s = new Stack();
     s.push(1);
     s.push(2);
@@ -19,7 +19,7 @@ describe("Stack class", () => {
     expect(s.pop()).toEqual(1);
   });
 
-  test("should have peek method which returns the last element but doesn't remove it", () => {
+  test("should have a peek method which returns the last element but doesn't remove it", () => {
     const s = new Stack();
     s.push(1);
     s.push(2);
