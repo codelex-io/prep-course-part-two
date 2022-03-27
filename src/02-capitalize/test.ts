@@ -1,7 +1,7 @@
 import { capitalize } from "./index";
 
 describe("Capitalize function", () => {
-  test("should capitalize the first letter of every word passed string", () => {
+  test("should capitalize the first letter of every word", () => {
     expect(capitalize("hi there, how is it going?")).toEqual(
       "Hi There, How Is It Going?"
     );
