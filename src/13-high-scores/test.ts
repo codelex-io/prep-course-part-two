@@ -40,4 +40,10 @@ describe("High Scores Test Suite", () => {
     const input = [40];
     expect(new HighScores(input).personalTopThree).toEqual([40]);
   });
+
+  test("Personal top three keeps the order of scores", () => {
+    const input = [10, 100, 20, 10, 0, 30, 40, 70, 50];
+    expect(new HighScores(input).personalTopThree).toEqual([100, 70, 50]);
+    expect(new HighScores(input).latest).toEqual(50);
+  });
 });
