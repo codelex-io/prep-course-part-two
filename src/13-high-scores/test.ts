@@ -41,9 +41,12 @@ describe("High Scores Test Suite", () => {
     expect(new HighScores(input).personalTopThree).toEqual([40]);
   });
 
-  test("Personal top three keeps the order of scores", () => {
+  test("The order of scores is kept", () => {
     const input = [10, 100, 20, 10, 0, 30, 40, 70, 50];
-    expect(new HighScores(input).personalTopThree).toEqual([100, 70, 50]);
-    expect(new HighScores(input).latest).toEqual(50);
+    const scores = new HighScores(input);
+    expect(scores.personalTopThree).toEqual([100, 70, 50]);
+    expect(scores.latest).toEqual(50);
+    expect(scores.personalBest).toEqual(100);
+    expect(scores.latest).toEqual(50);
   });
 });
