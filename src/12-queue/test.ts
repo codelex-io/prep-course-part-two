@@ -12,7 +12,7 @@ describe("Queue class", () => {
     const q = new Queue();
     expect(() => {
       q.add(1);
-      q.remove();
+      expect(q.remove()).toEqual(1);
     }).not.toThrow();
   });
 
