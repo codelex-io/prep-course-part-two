@@ -5,5 +5,6 @@ describe("LongestWord function", () => {
     expect(longestWord("Hello there")).toEqual("Hello");
     expect(longestWord("My name is Adam")).toEqual("name");
     expect(longestWord("fun&!! time")).toEqual("time");
+    expect(longestWord("Houston, we have a 12problem")).toEqual("Houston");
   });
 });
