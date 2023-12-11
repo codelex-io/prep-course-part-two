@@ -2,8 +2,7 @@
  * Is Even
  *
  * Determine if given number is even
- * without using a mathematic operator ( +, -, %, /, Math, ParseInt etc.)
- * nor a conditional operator.
+ * without using any mathematic operators ( +, -, %, /, Math, ParseInt etc.)
  *
  * Examples:
  * isEven(4) === true
